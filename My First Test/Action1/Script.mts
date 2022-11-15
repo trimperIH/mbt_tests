@@ -1,4 +1,6 @@
 ﻿
+WebUtil.LaunchBrowser "CHROME"
+
 Set myBrowser = Browser("creationtime:=0")
 myBrowser.Navigate Parameter("URL")
 myBrowser.Sync
